@@ -43,9 +43,9 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-// #ifndef ONLINE_JUDGE
-// #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
-// #endif
+  // #ifndef ONLINE_JUDGE
+  // #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
+  // #endif
 
   ll n, m, l, r, v;
   cin >> n >> m;

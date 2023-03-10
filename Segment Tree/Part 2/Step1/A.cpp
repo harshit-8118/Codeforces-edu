@@ -4,11 +4,6 @@ using namespace std;
 
 #define ll long long int
 #define nline "\n"
-#define v32 vector<int>
-#define pb emplace_back
-#define all(x) (x).begin(), (x).end()
-#define forf(i, s, e) for (int i = s; i < e; i++)
-#define forb(i, e, s) for (int i = e; i >= s; i--)
 
 class segmentTree
 {

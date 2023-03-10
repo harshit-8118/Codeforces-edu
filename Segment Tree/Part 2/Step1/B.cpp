@@ -2,15 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// defines(defs1 || defs2)
-#define ll long long int
-#define nline "\n"
-#define v32 vector<int>
-#define pb emplace_back
-#define all(x) (x).begin(), (x).end()
-#define forf(i, s, e) for (int i = s; i < e; i++)
-#define forb(i, e, s) for (int i = e; i >= s; i--)
-
 class segmentTree
 {
 public:
@@ -105,7 +96,7 @@ void Solution()
         {
             cin >> x;
             int ans = st.get_query(x);
-            cout << ans << nline;
+            cout << ans << "\n";
         }
     }
 }
@@ -116,7 +107,7 @@ int32_t main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    // #ifndef ONLINE_JUDGE 
+    // #ifndef ONLINE_JUDGE
     //     #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
     // #endif
 

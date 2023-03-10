@@ -127,9 +127,9 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-// #ifndef ONLINE_JUDGE
-// #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
-// #endif
+  // #ifndef ONLINE_JUDGE
+  // #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
+  // #endif
 
   int tt = 1;
   while (tt--)

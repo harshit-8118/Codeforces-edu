@@ -4,7 +4,7 @@ using namespace std;
 #define forf(i, s, e) for (int i = s; i < e; i++)
 #define forb(i, e, s) for (int i = e; i >= s; i--)
 
-// #ifndef ONLINE_JUDGE       
+// #ifndef ONLINE_JUDGE
 // #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/debug.h"
 // #else
 // #define fix(x)
@@ -99,9 +99,9 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-// #ifndef ONLINE_JUDGE      
-//   #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
-// #endif
+  // #ifndef ONLINE_JUDGE
+  //   #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/config.h"
+  // #endif
 
   int tt = 1;
   // cin>>tt;

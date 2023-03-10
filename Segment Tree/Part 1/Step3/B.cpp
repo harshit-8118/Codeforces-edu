@@ -4,23 +4,14 @@ using namespace std;
 #define ll long long int
 #define nline "\n"
 #define v32 vector<int>
-#define pb emplace_back
-#define all(x) (x).begin(), (x).end()
 #define forf(i, s, e) for(int i = s; i < e; i++)
 #define forb(i, e, s) for(int i = e; i >= s; i--)
-
 
 // #ifndef ONLINE_JUDGE     //    
 //  #include "C:/Users/hhars/OneDrive/Documents/CPP_Practice/Algo/debug.h"
 // #else
 // #define fix(x)
 // #endif
-
-
-template<typename T>    vector<T>& operator++(vector<T> &v){for (auto& i : v) ++i;  return  v;} // prefix incrementor
-template<typename T>    vector<T>& operator--(vector<T> &v){for (auto& i : v) --i;  return  v;} // prefix decrementor
-template<typename T>    istream& operator>>(istream& is, vector<T> &v){for (auto& i : v) is >> i;  return is;}
-template<typename T>    ostream& operator<<(ostream& os, vector<T>  v){for (auto& i : v) os << i << ' ';   return os;}
 
 class segmentTree{
   public: 
@@ -74,20 +65,22 @@ ios_base::sync_with_stdio(false);    cin.tie(NULL);    cout.tie(NULL);
 
 int n; cin>>n;
 vector<int> arr(n);
-cin>>arr;
+for(auto &x: arr){
+  cin>>x;
+}
 segmentTree st(arr);
 v32 v(n);
-fix(st.t);int cnt = n;
+int cnt = n;
 forb(i, n-1, 0){
-  fix(cnt - arr[i]);
   int ind = st.get_query(cnt - arr[i]);
-  fix(ind);
   st.update(ind, 0);
-  fix(st.t);
   v[i] = ind+1;
   cnt--;
 }
-cout<<v<<endl;
+for(auto x: v){
+  cout<<x<<" ";
+}
+cout<<nline;
 
 return 0;
 }
